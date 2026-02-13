@@ -3,8 +3,8 @@
 
 Lightweight, header-only periodic task helper built on `millis()` for Arduino-compatible boards.
 
-[![Arduino CI](https://github.com/<your-username>/PeriodicTask/actions/workflows/arduino.yml/badge.svg)](https://github.com/<your-username>/PeriodicTask/actions/workflows/arduino.yml)
-[![PlatformIO CI](https://github.com/<your-username>/PeriodicTask/actions/workflows/platformio.yml/badge.svg)](https://github.com/<your-username>/PeriodicTask/actions/workflows/platformio.yml)
+[![Arduino CI](https://github.com/Haustuer/Scheduler/actions/workflows/arduino.yml/badge.svg)](https://github.com/Haustuer/Scheduler/actions/workflows/arduino.yml)
+[![PlatformIO CI](https://github.com/Haustuer/Scheduler/actions/workflows/platformio.yml/badge.svg)](https://github.com/Haustuer/Scheduler/actions/workflows/platformio.yml)
 
 ## Features
 - Wrap-around safe scheduling using signed subtraction
