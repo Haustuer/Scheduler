@@ -29,15 +29,15 @@ Or copy the folder into your project `lib/`.
 ```cpp
 #include <PeriodicTask.h>
 
-void blink(void* ctx) {
-  int pin = (int)(intptr_t)ctx;
+void blink(void *) {
+  int pin = 13;
   digitalWrite(pin, !digitalRead(pin));
 }
 
-PeriodicTask blinker(500, blink, (void*)(intptr_t)LED_BUILTIN, true);
+PeriodicTask blinker(500, blink);
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(13, OUTPUT);
 }
 
 void loop() {
