@@ -21,7 +21,7 @@ Lightweight, header-only periodic task helper built on `millis()` for Arduino-co
 Add to `platformio.ini`:
 ```ini
 lib_deps =
-  <your-username>/PeriodicTask@^1.0.0
+  Haustuer/Scheduler/PeriodicTask@^1.0.0
 ```
 Or copy the folder into your project `lib/`.
 
