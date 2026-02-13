@@ -19,4 +19,4 @@ jobs:
       - name: Build examples
         run: |
           pio pkg update
-          pio ci examples/Basic --lib="." --board=uno --board=esp32dev --board=pico
+          pio ci examples/Basic --lib="." --board=uno --board=esp32dev --board=pico  --board=d1_mini_lite

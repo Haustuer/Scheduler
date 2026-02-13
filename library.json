@@ -18,6 +18,6 @@
   "headers": "PeriodicTask.h",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haukestuerenburg/PeriodicTask.git"
+    "url": "https://github.com/haustuer/Scheduler.git"
   }
 }
