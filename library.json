@@ -1,0 +1,23 @@
+{
+  "name": "PeriodicTask",
+  "version": "1.0.0",
+  "description": "Lightweight millis()-based periodic task scheduler for Arduino. Wrap-around safe, optional catch-up/coalesce, context pointers.",
+  "keywords": [
+    "timing",
+    "scheduler",
+    "millis",
+    "periodic"
+  ],
+  "license": "MIT",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "*"
+  ],
+  "headers": "PeriodicTask.h",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haukestuerenburg/PeriodicTask.git"
+  }
+}

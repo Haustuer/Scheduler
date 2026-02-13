@@ -1,0 +1,14 @@
+
+# General
+.DS_Store
+*.log
+
+# Arduino
+*.hex
+*.elf
+*.bin
+build/
+
+# PlatformIO
+.pio/
+.piolibdeps/

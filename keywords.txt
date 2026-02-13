@@ -1,0 +1,14 @@
+
+PeriodicTask	KEYWORD1
+poll	KEYWORD2
+tick	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+enable	KEYWORD2
+setInterval	KEYWORD2
+setPhase	KEYWORD2
+setContext	KEYWORD2
+runOnce	KEYWORD2
+due	KEYWORD2
+setCoalesceOverdue	KEYWORD2
+getCoalesceOverdue	KEYWORD2

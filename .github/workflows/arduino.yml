@@ -1,0 +1,31 @@
+
+name: Arduino CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+        with:
+          version: latest
+
+      - name: Install cores
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+          arduino-cli core install esp32:esp32
+
+      - name: Compile examples (AVR UNO)
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno examples/Basic
+
+      - name: Compile examples (ESP32)
+        run: |
+          arduino-cli compile --fqbn esp32:esp32:esp32 examples/Basic
