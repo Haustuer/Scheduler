@@ -25,8 +25,8 @@ jobs:
 
       - name: Compile examples (AVR UNO)
         run: |
-          arduino-cli compile --fqbn arduino:avr:uno examples/Basic
+          arduino-cli compile --fqbn arduino:avr:uno --library $GITHUB_WORKSPACE examples/Basic
 
       - name: Compile examples (ESP32)
         run: |
-          arduino-cli compile --fqbn esp32:esp32:esp32 examples/Basic
+          arduino-cli compile --fqbn esp32:esp32:esp32 --library $GITHUB_WORKSPACE examples/Basic
