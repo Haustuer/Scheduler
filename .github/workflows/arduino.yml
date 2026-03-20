@@ -13,8 +13,6 @@ jobs:
 
       - name: Set up Arduino CLI
         uses: arduino/setup-arduino-cli@v2
-        with:
-          version: 0.35.4 
 
 
       - name: Install cores
