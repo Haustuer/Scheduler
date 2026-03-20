@@ -7,8 +7,13 @@
 *.hex
 *.elf
 *.bin
+*.map
+*.d
 build/
 
 # PlatformIO
 .pio/
 .piolibdeps/
+
+# VS Code
+.vscode/
